@@ -14,9 +14,9 @@ const Landing = () => {
         dispatch(getProducts())
     },[])
     return (
-        <div>
+        <div className={style.all}>
             <h2>Proceso de selección - Marcos Laurens</h2>
-            <div>
+            <div className={style.contain}>
 
                 <div>
             <Link to={"/games"}>
@@ -24,13 +24,13 @@ const Landing = () => {
             </Link>
                 </div>
                 <div>
-            <Link to={"/products"}>
-                    <button className={style.btn}>Productos</button>
+            <Link to={"/favourites"}>
+                    <button className={style.btn}>Favoritos</button>
             </Link>
                 </div>
                 <div>
-            <Link to={"/favourites"}>
-                    <button className={style.btn}>Favoritos</button>
+            <Link to={"/products"}>
+                    <button className={style.btn}>Productos</button>
             </Link>
                 </div>
             </div>
