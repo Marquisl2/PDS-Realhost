@@ -1,3 +1,6 @@
+
+## Proceso de selección para realhost, integre 2 apis publicas, muestro las cards y doy la posibilidad de agregar y quitar de favoritos
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
