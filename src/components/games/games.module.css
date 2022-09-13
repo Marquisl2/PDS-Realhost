@@ -1,0 +1,158 @@
+.all{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 25px;
+}
+
+.ic i {
+    cursor: pointer;
+}
+
+
+.containBtn{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.containBtn button{
+    cursor: pointer;
+}
+
+.containerCards{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 30px;
+}
+
+.containerCard{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+.containerTitle{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImg{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+
+
+}
+
+.img{
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+@supports(object-fit: cover){
+    .containerImg img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+.containerDetails{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.li{
+    color: red;
+}
+
+.he{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ha{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contenedorLoading {
+    /* background: #c61212; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    /* background-color: #78788c; */
+    /* width: 100vw;
+    height: 77.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.imgload {
+    border-radius: 50%;
+    box-shadow: 0 0 35px rgb(155, 255, 108);
+    width: 200px;
+    height: 200px;
+    animation: loading 16s infinite;
+
+}
+
+@keyframes loading {
+    100% {
+        transform: rotate(1560deg);
+    }
+
+}
