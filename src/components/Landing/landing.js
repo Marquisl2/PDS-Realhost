@@ -17,22 +17,22 @@ const Landing = () => {
         <div>
             <h2>Proceso de selección - Marcos Laurens</h2>
             <div>
-            <Link to={"/games"}>
 
                 <div>
+            <Link to={"/games"}>
                     <button className={style.btn}>Juegos</button>
-                </div>
             </Link>
+                </div>
+                <div>
             <Link to={"/products"}>
-                <div>
                     <button className={style.btn}>Productos</button>
-                </div>
             </Link>
-            <Link to={"/favourites"}>
+                </div>
                 <div>
+            <Link to={"/favourites"}>
                     <button className={style.btn}>Favoritos</button>
-                </div>
             </Link>
+                </div>
             </div>
         </div>
     );
